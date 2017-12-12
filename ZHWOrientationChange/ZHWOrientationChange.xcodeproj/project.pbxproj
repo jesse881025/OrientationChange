@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846EBF201FDE346B00250773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF1F1FDE346B00250773 /* AppDelegate.m */; };
+		846EBF281FDE346B00250773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846EBF271FDE346B00250773 /* Assets.xcassets */; };
+		846EBF2B1FDE346B00250773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846EBF291FDE346B00250773 /* LaunchScreen.storyboard */; };
+		846EBF2E1FDE346B00250773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF2D1FDE346B00250773 /* main.m */; };
+		846EBF381FDE346B00250773 /* ZHWOrientationChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF371FDE346B00250773 /* ZHWOrientationChangeTests.m */; };
+		846EBF431FDE346B00250773 /* ZHWOrientationChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF421FDE346B00250773 /* ZHWOrientationChangeUITests.m */; };
+		846EBF531FDE5AF800250773 /* UITabBarController+AutoRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF521FDE5AF800250773 /* UITabBarController+AutoRate.m */; };
+		846EBF561FDE5B2800250773 /* UINavigationController+AutoRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF551FDE5B2800250773 /* UINavigationController+AutoRate.m */; };
+		846EBF5A1FDE5EA900250773 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF591FDE5EA900250773 /* PortraitViewController.m */; };
+		846EBF5D1FDE5ED600250773 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF5C1FDE5ED600250773 /* LandscapeViewController.m */; };
+		846EBF601FDE5F3200250773 /* OrientationAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF5F1FDE5F3200250773 /* OrientationAllViewController.m */; };
+		846EBF631FDF7EAF00250773 /* UIViewController+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EBF621FDF7EAF00250773 /* UIViewController+Orientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846EBF341FDE346B00250773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846EBF131FDE346B00250773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846EBF1A1FDE346B00250773;
+			remoteInfo = ZHWOrientationChange;
+		};
+		846EBF3F1FDE346B00250773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846EBF131FDE346B00250773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846EBF1A1FDE346B00250773;
+			remoteInfo = ZHWOrientationChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846EBF1B1FDE346B00250773 /* ZHWOrientationChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHWOrientationChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846EBF1E1FDE346B00250773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846EBF1F1FDE346B00250773 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846EBF271FDE346B00250773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846EBF2A1FDE346B00250773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846EBF2C1FDE346B00250773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846EBF2D1FDE346B00250773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846EBF331FDE346B00250773 /* ZHWOrientationChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHWOrientationChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846EBF371FDE346B00250773 /* ZHWOrientationChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWOrientationChangeTests.m; sourceTree = "<group>"; };
+		846EBF391FDE346B00250773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846EBF3E1FDE346B00250773 /* ZHWOrientationChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHWOrientationChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846EBF421FDE346B00250773 /* ZHWOrientationChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWOrientationChangeUITests.m; sourceTree = "<group>"; };
+		846EBF441FDE346B00250773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846EBF511FDE5AF800250773 /* UITabBarController+AutoRate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+AutoRate.h"; sourceTree = "<group>"; };
+		846EBF521FDE5AF800250773 /* UITabBarController+AutoRate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+AutoRate.m"; sourceTree = "<group>"; };
+		846EBF541FDE5B2800250773 /* UINavigationController+AutoRate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AutoRate.h"; sourceTree = "<group>"; };
+		846EBF551FDE5B2800250773 /* UINavigationController+AutoRate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AutoRate.m"; sourceTree = "<group>"; };
+		846EBF581FDE5EA900250773 /* PortraitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		846EBF591FDE5EA900250773 /* PortraitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
+		846EBF5B1FDE5ED600250773 /* LandscapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		846EBF5C1FDE5ED600250773 /* LandscapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		846EBF5E1FDE5F3200250773 /* OrientationAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationAllViewController.h; sourceTree = "<group>"; };
+		846EBF5F1FDE5F3200250773 /* OrientationAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationAllViewController.m; sourceTree = "<group>"; };
+		846EBF611FDF7EAF00250773 /* UIViewController+Orientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Orientation.h"; sourceTree = "<group>"; };
+		846EBF621FDF7EAF00250773 /* UIViewController+Orientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Orientation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846EBF181FDE346B00250773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846EBF301FDE346B00250773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846EBF3B1FDE346B00250773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846EBF121FDE346B00250773 = {
+			isa = PBXGroup;
+			children = (
+				846EBF571FDE5E8600250773 /* ViewControllers */,
+				846EBF501FDE5A2F00250773 /* AutoRate */,
+				846EBF1D1FDE346B00250773 /* ZHWOrientationChange */,
+				846EBF361FDE346B00250773 /* ZHWOrientationChangeTests */,
+				846EBF411FDE346B00250773 /* ZHWOrientationChangeUITests */,
+				846EBF1C1FDE346B00250773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846EBF1C1FDE346B00250773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846EBF1B1FDE346B00250773 /* ZHWOrientationChange.app */,
+				846EBF331FDE346B00250773 /* ZHWOrientationChangeTests.xctest */,
+				846EBF3E1FDE346B00250773 /* ZHWOrientationChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846EBF1D1FDE346B00250773 /* ZHWOrientationChange */ = {
+			isa = PBXGroup;
+			children = (
+				846EBF1E1FDE346B00250773 /* AppDelegate.h */,
+				846EBF1F1FDE346B00250773 /* AppDelegate.m */,
+				846EBF271FDE346B00250773 /* Assets.xcassets */,
+				846EBF291FDE346B00250773 /* LaunchScreen.storyboard */,
+				846EBF2C1FDE346B00250773 /* Info.plist */,
+				846EBF2D1FDE346B00250773 /* main.m */,
+			);
+			path = ZHWOrientationChange;
+			sourceTree = "<group>";
+		};
+		846EBF361FDE346B00250773 /* ZHWOrientationChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				846EBF371FDE346B00250773 /* ZHWOrientationChangeTests.m */,
+				846EBF391FDE346B00250773 /* Info.plist */,
+			);
+			path = ZHWOrientationChangeTests;
+			sourceTree = "<group>";
+		};
+		846EBF411FDE346B00250773 /* ZHWOrientationChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846EBF421FDE346B00250773 /* ZHWOrientationChangeUITests.m */,
+				846EBF441FDE346B00250773 /* Info.plist */,
+			);
+			path = ZHWOrientationChangeUITests;
+			sourceTree = "<group>";
+		};
+		846EBF501FDE5A2F00250773 /* AutoRate */ = {
+			isa = PBXGroup;
+			children = (
+				846EBF511FDE5AF800250773 /* UITabBarController+AutoRate.h */,
+				846EBF521FDE5AF800250773 /* UITabBarController+AutoRate.m */,
+				846EBF541FDE5B2800250773 /* UINavigationController+AutoRate.h */,
+				846EBF551FDE5B2800250773 /* UINavigationController+AutoRate.m */,
+				846EBF611FDF7EAF00250773 /* UIViewController+Orientation.h */,
+				846EBF621FDF7EAF00250773 /* UIViewController+Orientation.m */,
+			);
+			path = AutoRate;
+			sourceTree = "<group>";
+		};
+		846EBF571FDE5E8600250773 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				846EBF581FDE5EA900250773 /* PortraitViewController.h */,
+				846EBF591FDE5EA900250773 /* PortraitViewController.m */,
+				846EBF5B1FDE5ED600250773 /* LandscapeViewController.h */,
+				846EBF5C1FDE5ED600250773 /* LandscapeViewController.m */,
+				846EBF5E1FDE5F3200250773 /* OrientationAllViewController.h */,
+				846EBF5F1FDE5F3200250773 /* OrientationAllViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846EBF1A1FDE346B00250773 /* ZHWOrientationChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846EBF471FDE346B00250773 /* Build configuration list for PBXNativeTarget "ZHWOrientationChange" */;
+			buildPhases = (
+				846EBF171FDE346B00250773 /* Sources */,
+				846EBF181FDE346B00250773 /* Frameworks */,
+				846EBF191FDE346B00250773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHWOrientationChange;
+			productName = ZHWOrientationChange;
+			productReference = 846EBF1B1FDE346B00250773 /* ZHWOrientationChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846EBF321FDE346B00250773 /* ZHWOrientationChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846EBF4A1FDE346B00250773 /* Build configuration list for PBXNativeTarget "ZHWOrientationChangeTests" */;
+			buildPhases = (
+				846EBF2F1FDE346B00250773 /* Sources */,
+				846EBF301FDE346B00250773 /* Frameworks */,
+				846EBF311FDE346B00250773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846EBF351FDE346B00250773 /* PBXTargetDependency */,
+			);
+			name = ZHWOrientationChangeTests;
+			productName = ZHWOrientationChangeTests;
+			productReference = 846EBF331FDE346B00250773 /* ZHWOrientationChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846EBF3D1FDE346B00250773 /* ZHWOrientationChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846EBF4D1FDE346B00250773 /* Build configuration list for PBXNativeTarget "ZHWOrientationChangeUITests" */;
+			buildPhases = (
+				846EBF3A1FDE346B00250773 /* Sources */,
+				846EBF3B1FDE346B00250773 /* Frameworks */,
+				846EBF3C1FDE346B00250773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846EBF401FDE346B00250773 /* PBXTargetDependency */,
+			);
+			name = ZHWOrientationChangeUITests;
+			productName = ZHWOrientationChangeUITests;
+			productReference = 846EBF3E1FDE346B00250773 /* ZHWOrientationChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846EBF131FDE346B00250773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zhanghongwei;
+				TargetAttributes = {
+					846EBF1A1FDE346B00250773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					846EBF321FDE346B00250773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846EBF1A1FDE346B00250773;
+					};
+					846EBF3D1FDE346B00250773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846EBF1A1FDE346B00250773;
+					};
+				};
+			};
+			buildConfigurationList = 846EBF161FDE346B00250773 /* Build configuration list for PBXProject "ZHWOrientationChange" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846EBF121FDE346B00250773;
+			productRefGroup = 846EBF1C1FDE346B00250773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846EBF1A1FDE346B00250773 /* ZHWOrientationChange */,
+				846EBF321FDE346B00250773 /* ZHWOrientationChangeTests */,
+				846EBF3D1FDE346B00250773 /* ZHWOrientationChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846EBF191FDE346B00250773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846EBF2B1FDE346B00250773 /* LaunchScreen.storyboard in Resources */,
+				846EBF281FDE346B00250773 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846EBF311FDE346B00250773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846EBF3C1FDE346B00250773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846EBF171FDE346B00250773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846EBF561FDE5B2800250773 /* UINavigationController+AutoRate.m in Sources */,
+				846EBF5A1FDE5EA900250773 /* PortraitViewController.m in Sources */,
+				846EBF2E1FDE346B00250773 /* main.m in Sources */,
+				846EBF531FDE5AF800250773 /* UITabBarController+AutoRate.m in Sources */,
+				846EBF601FDE5F3200250773 /* OrientationAllViewController.m in Sources */,
+				846EBF631FDF7EAF00250773 /* UIViewController+Orientation.m in Sources */,
+				846EBF201FDE346B00250773 /* AppDelegate.m in Sources */,
+				846EBF5D1FDE5ED600250773 /* LandscapeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846EBF2F1FDE346B00250773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846EBF381FDE346B00250773 /* ZHWOrientationChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846EBF3A1FDE346B00250773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846EBF431FDE346B00250773 /* ZHWOrientationChangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846EBF351FDE346B00250773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846EBF1A1FDE346B00250773 /* ZHWOrientationChange */;
+			targetProxy = 846EBF341FDE346B00250773 /* PBXContainerItemProxy */;
+		};
+		846EBF401FDE346B00250773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846EBF1A1FDE346B00250773 /* ZHWOrientationChange */;
+			targetProxy = 846EBF3F1FDE346B00250773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846EBF291FDE346B00250773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846EBF2A1FDE346B00250773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846EBF451FDE346B00250773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846EBF461FDE346B00250773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846EBF481FDE346B00250773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 829RJU5YX4;
+				INFOPLIST_FILE = ZHWOrientationChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWOrientationChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		846EBF491FDE346B00250773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 829RJU5YX4;
+				INFOPLIST_FILE = ZHWOrientationChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWOrientationChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		846EBF4B1FDE346B00250773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWOrientationChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWOrientationChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHWOrientationChange.app/ZHWOrientationChange";
+			};
+			name = Debug;
+		};
+		846EBF4C1FDE346B00250773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWOrientationChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWOrientationChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHWOrientationChange.app/ZHWOrientationChange";
+			};
+			name = Release;
+		};
+		846EBF4E1FDE346B00250773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWOrientationChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWOrientationChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHWOrientationChange;
+			};
+			name = Debug;
+		};
+		846EBF4F1FDE346B00250773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZHWOrientationChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongwei.ZHWOrientationChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHWOrientationChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846EBF161FDE346B00250773 /* Build configuration list for PBXProject "ZHWOrientationChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846EBF451FDE346B00250773 /* Debug */,
+				846EBF461FDE346B00250773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846EBF471FDE346B00250773 /* Build configuration list for PBXNativeTarget "ZHWOrientationChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846EBF481FDE346B00250773 /* Debug */,
+				846EBF491FDE346B00250773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846EBF4A1FDE346B00250773 /* Build configuration list for PBXNativeTarget "ZHWOrientationChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846EBF4B1FDE346B00250773 /* Debug */,
+				846EBF4C1FDE346B00250773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846EBF4D1FDE346B00250773 /* Build configuration list for PBXNativeTarget "ZHWOrientationChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846EBF4E1FDE346B00250773 /* Debug */,
+				846EBF4F1FDE346B00250773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846EBF131FDE346B00250773 /* Project object */;
+}
